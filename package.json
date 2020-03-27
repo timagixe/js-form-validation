@@ -1,0 +1,24 @@
+{
+  "name": "form-validator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d ../form-validator"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timagixe/js-form-validation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://timagixe.github.io/js-form-validation",
+  "bugs": {
+    "url": "https://github.com/timagixe/js-form-validation/issues"
+  },
+  "homepage": "https://github.com/timagixe/js-form-validation#readme",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
