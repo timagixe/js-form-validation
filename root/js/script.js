@@ -55,8 +55,6 @@ function checkEmail(input) {
 
   const re = /^[-!#$%&'*+\/0-9=?A-Z^_a-z`{|}~](\.?[-!#$%&'*+\/0-9=?A-Z^_a-z`{|}~])*@[a-zA-Z0-9](-*\.?[a-zA-Z0-9])*\.[a-zA-Z](-?[a-zA-Z0-9])+$/;
 
-  input.value = input.value.trim();
-
   if (re.test(String(input.value).toLowerCase())) {
     showSuccess(input);
   } else {
