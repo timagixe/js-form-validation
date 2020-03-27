@@ -31,6 +31,7 @@ function checkEmail(input) {
   }
 }
 
+// Setting input to must have
 function checkRequired(inputArray) {
   inputArray.forEach(input => {
     if (input.value === '') {
