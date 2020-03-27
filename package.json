@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d js form-validation "
+    "deploy": "gh-pages -d js-form-validation "
   },
   "repository": {
     "type": "git",
